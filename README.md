@@ -75,8 +75,17 @@ Rename the .env-example file to .env and configure your VanMoof credentials.
 Run the following to test and debug the VanMoof MCP Server:
 
 ```bash
-mcp dev .\server.py
+mcp dev c:\github\mcp-server-vanmoof\server.py
 ```
+
+Configure the following arguments:
+
+run --with mcp[cli] --with requests --with tzlocal mcp run c://github//mcp-server-vanmoof//server.py
+
+And the Environment Arguments for VANMOOF_USERNAME and VANMOOF_PASSWORD in the Webbrowser after you have started the MCP inspector.
+
+![Inspector settings.](./image.png)
+
 ## 🔧 Setup
 
 ### Usage with Claude Desktop
