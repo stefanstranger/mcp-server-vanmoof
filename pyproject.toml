@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server-vanmoof"
+version = "0.1.0"
+description = "VanMoof MCP server to retrieve VanMoof customer data, including bike details, VanMoof rider cities, rider preferences and weekly rides."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.1.0",
+    "httpx>=0.28.1",
+    "local>=1.0.0",
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+    "tzlocal>=5.3.1",
+]
