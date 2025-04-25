@@ -95,6 +95,12 @@ There are two ways to launch MCP Inspector:
 
 If you install the SDK with the cli option like uv add "mcp[cli]", you can use the MCP CLI. To start MCP Inspector, run mcp dev.
 
+If you want to use the npx to launch the MCP Inspector run, after you have started your Python environment in your host.:
+
+```bash
+ npx @modelcontextprotocol/inspector uv run --with mcp[cli] --with requests --with tzlocal mcp run c://github//mcp-server-vanmoof//server.py -e VANMOOF_USERNAME=john.doe@outlook.com -e VANMOOF_PASSWORD=[very secret password]
+ ```
+
 ## 🔧 Setup
 
 ### Usage with Claude Desktop
