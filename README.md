@@ -86,6 +86,15 @@ And the Environment Arguments for VANMOOF_USERNAME and VANMOOF_PASSWORD in the W
 
 ![Inspector settings.](./image.png)
 
+#### Launching MCP Inspector
+
+There are two ways to launch MCP Inspector:
+
+- Launch with MCP CLI
+- Launch with npx @modelcontextprotocol/inspector
+
+If you install the SDK with the cli option like uv add "mcp[cli]", you can use the MCP CLI. To start MCP Inspector, run mcp dev.
+
 ## 🔧 Setup
 
 ### Usage with Claude Desktop
